@@ -1,6 +1,28 @@
+# Ignorar el núcleo de WordPress
+wp-admin/
+wp-includes/
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Ignorar contenido sensible y pesado
 wp-config.php
 wp-content/uploads/
 wp-content/upgrade/
-wp-content/backup-db/
+wp-content/languages/
+node_modules/
 *.log
 .htaccess
